@@ -45,3 +45,33 @@ header .icons span {
 	color: white;
 	/* font-size: 16px; */
 }
+
+nav {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height: 90px;
+}
+
+nav .nav_logo_container {
+	margin-left: 50px;
+	/* border: solid 1px blue; */
+}
+
+nav .nav_logo_container img {
+	width: 220px;
+	margin-top: 10px;
+}
+
+nav .profile_link {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 50px;
+	/* border: solid 1px red; */
+}
+
+nav .profile_link a {
+	color: black;
+	border-bottom: solid 1px black;
+
+}
