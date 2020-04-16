@@ -216,3 +216,23 @@ footer {
 footer p {
 	color: white;
 }
+
+/* **************BlogPost**************** */
+
+.blogpost_img_container {
+    padding: 0 50px 40px;
+}
+.blogpost_img_container img {
+    width: 100%;
+}
+.blogpost_main_container {
+    padding: 0 50px 40px;
+}
+.blogpost_main_container h3 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+}
+.blogpost_main_container article h1 {
+	font-size: 35px;
+	padding: 20px 0;
+}
